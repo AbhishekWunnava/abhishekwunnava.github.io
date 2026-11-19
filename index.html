@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Wunnava — Product Manager | Enterprise Integrations, B2B SaaS & AI</title>
+  <meta name="description" content="Product Manager with 9+ years in tech (7+ PM) specializing in Enterprise ERP connectors, AI-assisted automation, and B2B SaaS platforms.">
+
+  <!-- Google Fonts: Editorial Serif + Clean Modern Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Newsreader"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            canvas: '#FAF8F5',
+            surface: '#FFFFFF',
+            ink: '#1A1816',
+            charcoal: '#2D2A26',
+            stone: '#666159',
+            muted: '#9E988F',
+            hairline: '#E7E3D9',
+            accent: '#0D6E64',
+            accentLight: '#E8F5F3',
+            amberAccent: '#8A5314',
+            amberLight: '#FDF6ED'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    ::selection {
+      background-color: #1A1816;
+      color: #FAF8F5;
+    }
+    .card-clean {
+      background-color: #FFFFFF;
+      border: 1px solid #E7E3D9;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-clean:hover {
+      border-color: #D6D0C2;
+      box-shadow: 0 10px 30px -10px rgba(26, 24, 22, 0.05);
+    }
+    @media print {
+      header, footer, .no-print {
+        display: none !important;
+      }
+      body {
+        background: #FFFFFF !important;
+        color: #000000 !important;
+        font-size: 11pt;
+      }
+      .card-clean {
+        border: 1px solid #CCCCCC !important;
+        box-shadow: none !important;
+        break-inside: avoid;
+        margin-bottom: 12pt;
+      }
+    }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans antialiased selection:bg-ink selection:text-canvas min-h-screen">
+
+  <!-- RECRUITER STATUS BAR (Quiet, minimalist) -->
+  <div class="no-print border-b border-hairline bg-[#F4F1EA]/80 backdrop-blur-sm text-stone text-xs py-2 px-4">
+    <div class="max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span class="font-medium text-ink">Open to Lead & Senior Product Manager Roles</span>
+        <span class="text-muted hidden sm:inline">· B2B SaaS, Enterprise ERPs & AI</span>
+      </div>
+      <div class="flex items-center space-x-4 font-mono text-[11px]">
+        <a href="mailto:w.abhishek@outlook.com" class="text-ink hover:underline">w.abhishek@outlook.com</a>
+        <span class="text-muted">·</span>
+        <span class="text-stone">+91 98491 81874</span>
+        <span class="text-muted">·</span>
+        <span class="text-stone">Hyderabad, India</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING MINIMALIST NAVIGATION -->
+  <header class="no-print sticky top-4 z-50 px-4 mt-2">
+    <nav class="max-w-3xl mx-auto bg-white/90 backdrop-blur-md border border-hairline rounded-full px-5 py-2.5 flex items-center justify-between shadow-sm">
+      <a href="#hero" class="font-serif font-medium text-lg tracking-tight text-ink hover:opacity-80 transition-opacity">
+        Abhishek Wunnava
+      </a>
+
+      <div class="flex items-center space-x-5 text-xs font-medium uppercase tracking-wider text-stone">
+        <a href="#impact" class="hover:text-ink transition-colors">Impact</a>
+        <a href="#work" class="hover:text-ink transition-colors">Key Work</a>
+        <a href="#timeline" class="hover:text-ink transition-colors">Timeline</a>
+        <a href="#skills" class="hover:text-ink transition-colors hidden sm:inline">Skills</a>
+      </div>
+
+      <div class="flex items-center space-x-2">
+        <button onclick="window.print()" class="px-3 py-1 rounded-full border border-hairline text-xs font-mono font-medium text-stone hover:text-ink hover:border-ink transition-all flex items-center gap-1" title="Print or save PDF">
+          <span>Resume (PDF)</span>
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </button>
+        <a href="https://linkedin.com/in/abhishekwunnava" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1 rounded-full bg-ink text-white text-xs font-medium hover:bg-black transition-colors flex items-center gap-1">
+          <span>LinkedIn</span>
+          <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-5 sm:px-8 pt-10 sm:pt-16 pb-20">
+
+    <!-- HERO SECTION: THE 10-SECOND VALUE PROPOSITION -->
+    <section id="hero" class="mb-16">
+      
+      <p class="font-mono text-xs font-medium uppercase tracking-widest text-muted mb-4">
+        Product Manager · 9+ Years Tech (7+ PM) · Hyderabad, India
+      </p>
+
+      <h1 class="font-serif text-4xl sm:text-6xl font-normal tracking-tight text-ink mb-6 leading-[1.12]">
+        Building the connective tissue between <span class="italic font-serif">Enterprise ERPs</span> and <span class="italic font-serif">AI automation</span>.
+      </h1>
+
+      <p class="text-lg sm:text-xl text-stone font-normal leading-relaxed max-w-2xl mb-8">
+        I am a Product Manager currently leading ERP connectors and integrations for an AI-powered finance automation platform at <strong>Auditoria.ai</strong>. I turn complex, multi-month ERP integrations into scalable connector frameworks and AI-guided self-serve platforms—shortening time-to-value, eliminating operational bottlenecks, and unlocking multi-million dollar enterprise ARR.
+      </p>
+
+      <!-- Fast Action Buttons -->
+      <div class="no-print flex flex-wrap items-center gap-3">
+        <a href="mailto:w.abhishek@outlook.com?subject=Product%20Manager%20Role%20-%20Recruiter%20Outreach" class="px-5 py-2.5 rounded-full bg-ink text-white text-xs font-medium hover:bg-black transition-all flex items-center gap-2">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          <span>Get in Touch (w.abhishek@outlook.com)</span>
+        </a>
+
+        <button onclick="copyContact()" id="copy-btn" class="px-4 py-2.5 rounded-full border border-hairline bg-white text-xs font-mono text-stone hover:text-ink hover:border-ink transition-all flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+          <span id="copy-text">Copy Contact</span>
+        </button>
+
+        <a href="https://linkedin.com/in/abhishekwunnava" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-full border border-hairline bg-white text-xs font-medium text-stone hover:text-ink hover:border-ink transition-all flex items-center gap-1.5">
+          <span>LinkedIn</span>
+          <svg class="w-3 h-3 text-muted" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- THE 4-METRIC IMPACT BAR (The 5-Second Proof) -->
+    <section id="impact" class="mb-20 pt-4 border-t border-hairline">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 py-6">
+        <div>
+          <div class="font-serif text-3xl sm:text-4xl font-normal text-ink mb-1">$2.5M+</div>
+          <div class="text-xs font-mono uppercase tracking-wider text-muted">ARR Supported</div>
+          <p class="text-xs text-stone mt-1">Universal ERP Connector platform & Composite SOR</p>
+        </div>
+
+        <div>
+          <div class="font-serif text-3xl sm:text-4xl font-normal text-ink mb-1">500+</div>
+          <div class="text-xs font-mono uppercase tracking-wider text-muted">Enterprise Accounts</div>
+          <p class="text-xs text-stone mt-1">Addressable market unlocked with Oracle Fusion ERP</p>
+        </div>
+
+        <div>
+          <div class="font-serif text-3xl sm:text-4xl font-normal text-accent mb-1">10%→52%</div>
+          <div class="text-xs font-mono uppercase tracking-wider text-muted">Conversion Jump</div>
+          <p class="text-xs text-stone mt-1">5.2x onboarding lift via ML fit scoring (SelectRight)</p>
+        </div>
+
+        <div>
+          <div class="font-serif text-3xl sm:text-4xl font-normal text-ink mb-1">&lt;3 mins</div>
+          <div class="text-xs font-mono uppercase tracking-wider text-muted">Driver Onboarding</div>
+          <p class="text-xs text-stone mt-1">Down from 20+ min across 8 countries (TruKKer)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE SIGNATURE SHIPS (Context → What I Shipped → Outcome) -->
+    <section id="work" class="mb-20">
+      
+      <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-hairline">
+        <h2 class="font-serif text-2xl sm:text-3xl font-normal tracking-tight text-ink">
+          Signature Product Work
+        </h2>
+        <span class="text-xs font-mono text-muted uppercase tracking-wider">3 Case Highlights</span>
+      </div>
+
+      <div class="space-y-8">
+
+        <!-- SIGNATURE 01: Auditoria.ai -->
+        <article class="card-clean rounded-2xl p-7 sm:p-9">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-4">
+            <div>
+              <span class="text-xs font-mono font-medium text-accent uppercase tracking-wider">Auditoria.ai · Jun 2025 – Present</span>
+              <h3 class="font-serif text-2xl font-medium text-ink mt-1">
+                Universal ERP Connectors & AI-Assisted Self-Serve Platform
+              </h3>
+            </div>
+            <span class="text-xs font-mono text-muted">Enterprise B2B SaaS</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-hairline/60 text-sm">
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">The Friction</h4>
+              <p class="text-stone leading-relaxed">
+                Enterprise finance teams run on fragmented ERPs (Workday, Oracle, SAP). Integrating non-native systems required months of custom engineering, blocking sales deals and inflating professional services costs.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">What I Shipped</h4>
+              <ul class="text-stone space-y-1.5 leading-relaxed">
+                <li>• Led <strong>Oracle Fusion ERP</strong> integration end-to-end for AR and AP.</li>
+                <li>• Built <strong>Universal Connector Platform</strong> for 4 non-native ERPs (SAP ECC, S/4HANA, Ariba, Lawson).</li>
+                <li>• Shipped <strong>Composite System of Record</strong> with built-in automated deduplication.</li>
+                <li>• Driving <strong>AI-Assisted Self-Serve Connectors</strong> to map Workday fields dynamically.</li>
+              </ul>
+            </div>
+
+            <div class="bg-canvas/80 p-4 rounded-xl border border-hairline">
+              <h4 class="text-xs font-mono uppercase tracking-wider text-ink font-semibold mb-2">Measurable Impact</h4>
+              <ul class="space-y-2 text-xs text-stone">
+                <li class="flex items-start gap-2">
+                  <span class="text-accent font-bold">›</span>
+                  <span><strong>60% cut</strong> in custom integration engineering effort.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-accent font-bold">›</span>
+                  <span><strong>$2.5M+ ARR supported</strong> across 9+ live enterprise clients.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-accent font-bold">›</span>
+                  <span><strong>500+ enterprise accounts TAM</strong> unlocked with Oracle Fusion.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-accent font-bold">›</span>
+                  <span><strong>35% targeted cut</strong> in customer onboarding time via AI self-serve.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-hairline/60 flex flex-wrap gap-2 text-[11px] font-mono text-stone">
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Workday Financials</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Oracle Fusion</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">SAP ECC & S/4HANA</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">SAP Ariba</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Data Deduplication</span>
+          </div>
+        </article>
+
+        <!-- SIGNATURE 02: GradRight -->
+        <article class="card-clean rounded-2xl p-7 sm:p-9">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-4">
+            <div>
+              <span class="text-xs font-mono font-medium text-amberAccent uppercase tracking-wider">GradRight · Jan 2023 – Jun 2025</span>
+              <h3 class="font-serif text-2xl font-medium text-ink mt-1">
+                SelectRight Onboarding Transformation & LendRight FinTech Portal
+              </h3>
+            </div>
+            <span class="text-xs font-mono text-muted">Consumer & FinTech</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-hairline/60 text-sm">
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">The Friction</h4>
+              <p class="text-stone leading-relaxed">
+                Study abroad onboarding conversion suffered from high abandonment (only 10% converted), while students seeking loans were manually matched with banks without approval probability visibility.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">What I Shipped</h4>
+              <ul class="text-stone space-y-1.5 leading-relaxed">
+                <li>• Led user research across 200 prospective students and 30 university admissions teams.</li>
+                <li>• Shipped <strong>SelectRight</strong> with an ML college fit & admission probability score.</li>
+                <li>• Launched <strong>AdmitRight</strong> student-university engagement portal.</li>
+                <li>• Built <strong>LendRight</strong> sales admin portal and integrated <strong>PhonePe, HDFC Credila, Avanse, and InCred</strong> with an ML loan fundability score.</li>
+              </ul>
+            </div>
+
+            <div class="bg-canvas/80 p-4 rounded-xl border border-hairline">
+              <h4 class="text-xs font-mono uppercase tracking-wider text-ink font-semibold mb-2">Measurable Impact</h4>
+              <ul class="space-y-2 text-xs text-stone">
+                <li class="flex items-start gap-2">
+                  <span class="text-amberAccent font-bold">›</span>
+                  <span><strong>10% → 52% conversion leap</strong> (5.2x onboarding lift).</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-amberAccent font-bold">›</span>
+                  <span><strong>~₹7 Cr topline revenue</strong> generated via LendRight & partners.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-amberAccent font-bold">›</span>
+                  <span><strong>1,000+ students</strong> adopted AdmitRight in single admissions cycle.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-amberAccent font-bold">›</span>
+                  <span><strong>12–15% MAU retention lift</strong> via automated MoEngage workflows.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-hairline/60 flex flex-wrap gap-2 text-[11px] font-mono text-stone">
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">ML Fit Scoring</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Funnel Optimization (PLG)</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">PhonePe & HDFC Credila</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Mixpanel & MoEngage</span>
+          </div>
+        </article>
+
+        <!-- SIGNATURE 03: TruKKer Technologies -->
+        <article class="card-clean rounded-2xl p-7 sm:p-9">
+          <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-4">
+            <div>
+              <span class="text-xs font-mono font-medium text-stone uppercase tracking-wider">TruKKer Technologies · Oct 2021 – Dec 2022</span>
+              <h3 class="font-serif text-2xl font-medium text-ink mt-1">
+                8-Country Supply Platform & Automated Operations Engine
+              </h3>
+            </div>
+            <span class="text-xs font-mono text-muted">Logistics Cloud & Operations</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-hairline/60 text-sm">
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">The Friction</h4>
+              <p class="text-stone leading-relaxed">
+                Driver onboarding across 8 Middle East & North Africa countries was manual, taking 20+ minutes per driver. Freight invoicing created massive administrative backlog and compliance errors.
+              </p>
+            </div>
+
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-stone font-semibold mb-2">What I Shipped</h4>
+              <ul class="text-stone space-y-1.5 leading-relaxed">
+                <li>• Unified configuration module for supply onboarding across 8 countries.</li>
+                <li>• Real-time driver app <strong>bid management portal</strong> for freight matching.</li>
+                <li>• Automated post-order billing and invoice generation pipeline.</li>
+                <li>• Built multi-tier operational analytics dashboards from associates to CXOs.</li>
+              </ul>
+            </div>
+
+            <div class="bg-canvas/80 p-4 rounded-xl border border-hairline">
+              <h4 class="text-xs font-mono uppercase tracking-wider text-ink font-semibold mb-2">Measurable Impact</h4>
+              <ul class="space-y-2 text-xs text-stone">
+                <li class="flex items-start gap-2">
+                  <span class="text-stone font-bold">›</span>
+                  <span><strong>~6,000 drivers onboarded</strong> in 3 months across 8 countries.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-stone font-bold">›</span>
+                  <span><strong>85% time reduction</strong>: collapsed onboarding from 20+ min to &lt;3 min.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-stone font-bold">›</span>
+                  <span><strong>~30,000 monthly invoices</strong> fully automated with zero manual error.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-hairline/60 flex flex-wrap gap-2 text-[11px] font-mono text-stone">
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Multi-Country Localization</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Supply Marketplace</span>
+            <span class="bg-canvas px-2.5 py-1 rounded border border-hairline">Invoice Automation</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- THE 10-SECOND SCANNABLE CAREER TIMELINE -->
+    <section id="timeline" class="mb-20">
+      
+      <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-hairline">
+        <h2 class="font-serif text-2xl sm:text-3xl font-normal tracking-tight text-ink">
+          Career Trajectory
+        </h2>
+        <span class="text-xs font-mono text-muted uppercase tracking-wider">Chronological Overview</span>
+      </div>
+
+      <div class="divide-y divide-hairline">
+
+        <!-- Role 1 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">Auditoria.ai</div>
+            <div class="text-xs font-mono text-accent">Jun 2025 – Present</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Product Manager — Connectors & Enterprise Integrations</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Leading Oracle Fusion ERP, Universal ERP Connectors (SAP ECC, S/4HANA, Ariba, Lawson), Composite System of Record, and AI-assisted self-serve Workday connectors.
+            </p>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">GradRight</div>
+            <div class="text-xs font-mono text-stone">Jan 2023 – Jun 2025</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Product Manager — SelectRight & FundRight / LendRight</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Delivered 5.2x conversion leap on SelectRight with ML college fit scoring; launched AdmitRight portal; built LendRight contributing ~₹7Cr topline with PhonePe, HDFC Credila, Avanse.
+            </p>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">TruKKer Technologies</div>
+            <div class="text-xs font-mono text-stone">Oct 2021 – Dec 2022</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Product Manager — Supply (Admin Platform)</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Launched 8-country supply configuration module (6,000 drivers in 3 months; cut onboarding 20+ min to &lt;3 min); driver bidding portal; automated 30k monthly invoices.
+            </p>
+          </div>
+        </div>
+
+        <!-- Role 4 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">L&T EduTech</div>
+            <div class="text-xs font-mono text-muted">Nov 2020 – Oct 2021</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Product & Presales Specialist — Assessments & Learning</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Owned engineering stack, website design, and pedagogical content sourcing; built assessment engine for campus-to-corporate hiring.
+            </p>
+          </div>
+        </div>
+
+        <!-- Role 5 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">Volvo Eicher (VECV)</div>
+            <div class="text-xs font-mono text-muted">Jul 2019 – Nov 2020</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Deputy Manager, Programs — Heavy Duty & Telematics</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Designed go-to-market strategies for heavy-duty commercial trucks and Eicher Live telematics IoT software; improved sales KPI scores by 50+ points across 8 of 11 dealerships.
+            </p>
+          </div>
+        </div>
+
+        <!-- Role 6 -->
+        <div class="py-5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 group">
+          <div class="sm:w-1/3">
+            <div class="font-serif text-lg font-medium text-ink">Bluefrog Mobile Tech</div>
+            <div class="text-xs font-mono text-muted">Sep 2013 – Sep 2015</div>
+          </div>
+          <div class="sm:w-2/3">
+            <div class="text-sm font-medium text-ink">Software Developer — Mobile Applications</div>
+            <p class="text-xs text-stone mt-1 leading-relaxed">
+              Engineered native Android and J2ME applications for large-scale government welfare programs, including MG-NREGA.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECHNICAL MOAT & SKILLS (Curated, not cluttered) -->
+    <section id="skills" class="mb-20">
+      
+      <div class="flex items-baseline justify-between mb-8 pb-3 border-b border-hairline">
+        <h2 class="font-serif text-2xl sm:text-3xl font-normal tracking-tight text-ink">
+          Domain Depth & Superpowers
+        </h2>
+        <span class="text-xs font-mono text-muted uppercase tracking-wider">Skills & Pedigree</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+        <div class="card-clean rounded-xl p-5">
+          <div class="text-xs font-mono uppercase tracking-wider text-muted mb-2 font-semibold">Enterprise Systems</div>
+          <ul class="text-xs text-stone space-y-1.5 font-mono">
+            <li>• Workday Financials</li>
+            <li>• Oracle Fusion ERP</li>
+            <li>• SAP ECC & S/4HANA</li>
+            <li>• SAP Ariba</li>
+            <li>• Lawson ERP</li>
+          </ul>
+        </div>
+
+        <div class="card-clean rounded-xl p-5">
+          <div class="text-xs font-mono uppercase tracking-wider text-muted mb-2 font-semibold">Product Discipline</div>
+          <ul class="text-xs text-stone space-y-1.5">
+            <li>• Roadmapping & Prioritization</li>
+            <li>• Customer Discovery (200+ talks)</li>
+            <li>• Workflow Automation</li>
+            <li>• No-Code / Low-Code Setup</li>
+            <li>• Agile / Scrum Leadership</li>
+          </ul>
+        </div>
+
+        <div class="card-clean rounded-xl p-5">
+          <div class="text-xs font-mono uppercase tracking-wider text-muted mb-2 font-semibold">Applied AI & Analytics</div>
+          <ul class="text-xs text-stone space-y-1.5">
+            <li>• AI Self-Serve Field Mapping</li>
+            <li>• ML Fit & Fundability Scoring</li>
+            <li>• Mixpanel Funnel Analytics</li>
+            <li>• MoEngage User Workflows</li>
+            <li>• Claude Code & Prompt Eng</li>
+          </ul>
+        </div>
+
+        <div class="card-clean rounded-xl p-5">
+          <div class="text-xs font-mono uppercase tracking-wider text-muted mb-2 font-semibold">Education & Certs</div>
+          <ul class="text-xs text-stone space-y-1.5">
+            <li class="font-medium text-ink">• CSPO® Certified Scrum PO</li>
+            <li class="font-medium text-ink">• Lean Six Sigma</li>
+            <li>• <strong>MBA (SCM)</strong> — SIIB Pune</li>
+            <li>• <strong>B.Tech (CS)</strong> — JNTU Kakinada</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MINIMALIST FOOTER -->
+  <footer class="no-print border-t border-hairline py-12 px-6 bg-white">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-stone">
+      <div>
+        <span class="font-serif font-medium text-ink text-base">Abhishek Wunnava</span>
+        <p class="text-muted mt-0.5">Product Manager · Enterprise ERPs, B2B SaaS & Applied AI</p>
+      </div>
+
+      <div class="flex items-center space-x-6 font-mono text-[11px]">
+        <a href="mailto:w.abhishek@outlook.com" class="text-ink hover:underline">w.abhishek@outlook.com</a>
+        <a href="https://linkedin.com/in/abhishekwunnava" target="_blank" rel="noopener noreferrer" class="text-ink hover:underline">LinkedIn ↗</a>
+        <button onclick="window.print()" class="text-stone hover:text-ink">Resume PDF ↓</button>
+        <a href="#hero" class="text-muted hover:text-ink">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT: COPY TOAST -->
+  <script>
+    function copyContact() {
+      const text = "Abhishek Wunnava | Product Manager\nEmail: w.abhishek@outlook.com\nPhone: +91 98491 81874\nLinkedIn: https://linkedin.com/in/abhishekwunnava\nLocation: Hyderabad, India";
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-text');
+        const orig = btn.innerText;
+        btn.innerText = "Copied!";
+        setTimeout(() => { btn.innerText = orig; }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>
